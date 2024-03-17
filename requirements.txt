@@ -1,13 +1,15 @@
-##########################################################################################
-# 1- Instalando bibliotecas principais.                                                  #
-# Caso você precise de versões específicas, adicione "==número_da_versão" à biblioteca.  #
-##########################################################################################
+######################################################################################
+# 1- Installing core libraries.                                                      #
+# IMPORTANT: Do not modify the libraries listed below.                               #
+# If specific versions are required, append "==version_number" to the library name.  #
+######################################################################################
 playwright
 auto-py-to-exe
 
-##########################################################################################
-# 2- Coloque abaixo todas as bibliotecas que seu código precise rodar, uma por linha.    #
-# Caso você precise de versões específicas, adicione "==número_da_versão" à biblioteca.  #
-##########################################################################################
+######################################################################################
+# 2- Add your project-specific dependencies below, one per line.                     #                    
+# If specific versions are required, append "==version_number" to the  library name. #
+######################################################################################
 openpyxl
 pandas
+
