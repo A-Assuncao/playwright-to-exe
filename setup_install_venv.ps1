@@ -4,7 +4,7 @@ $VENV_NAME = "venv"
 # Criando o ambiente virtual
 python -m venv $VENV_NAME
 
-# Ativando o ambiente virtual (Nota: Isso não muda o ambiente para o shell atual no PowerShell)
+# Ativando o ambiente virtual
 $activateScript = ".\" + $VENV_NAME + "\Scripts\Activate.ps1"
 . $activateScript
 
