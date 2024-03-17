@@ -1,12 +1,12 @@
 ##########################################################################################
-# Instalando bibliotecas principais.                                                     #
+# 1- Instalando bibliotecas principais.                                                  #
 # Caso você precise de versões específicas, adicione "==número_da_versão" à biblioteca.  #
 ##########################################################################################
 playwright
 auto-py-to-exe
 
 ##########################################################################################
-# Coloque abaixo todas as bibliotecas que seu código precise rodar, uma por linha.       #
+# 2- Coloque abaixo todas as bibliotecas que seu código precise rodar, uma por linha.    #
 # Caso você precise de versões específicas, adicione "==número_da_versão" à biblioteca.  #
 ##########################################################################################
 openpyxl
