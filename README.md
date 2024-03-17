@@ -1,14 +1,21 @@
 # playwright-to-exe
-Cria um ambiente virtual, instala dependências de requeriments.txt, encapsula o chromium, muda o PATH do Playwright para que arquivos .py possam ser transformados em executáveis e executa auto-py-exe.
+This tool automates the setup process by creating a virtual environment, installing dependencies from `requirements.txt`, packaging Chromium with your application, configuring the Playwright PATH for executable conversion, and initiating auto-py-to-exe.
 
-## How to use
-1 - Baixe o arquivo requeriments.txt e coloque dentro de uma pasta vazia;
+## How to Use
+Follow these steps to easily convert your Python scripts into standalone executables.
 
-2- Edite o arquivo requeriments.txt adicionando no campo "2" as bibliotecas que seu código precisa (não apague o campo "1"), lembre-se de salvar;
+### Step 1: Preparation
+Download the `requirements.txt` file and place it into an empty directory.
 
-3- Abra o PowerShell dentro da pasta escolhida;
+### Step 2: Configure Dependencies
+Edit the `requirements.txt` file by adding any additional libraries your project requires under section "2". Do not remove section "1". Save the file after editing.
 
-4- Cole o código:
-```
+### Step 3: Open PowerShell
+Navigate to your project folder and open PowerShell in that location.
+
+### Step 4: Run the Installation Command
+Paste the following command into PowerShell and execute it:
+
+```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/A-Assuncao/playwright-to-exe/main/setup_install_venv.ps1'))} global"
 ```
