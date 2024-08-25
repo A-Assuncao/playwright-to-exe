@@ -8,10 +8,11 @@ Follow these steps to easily convert your Python scripts into standalone executa
 Right-click [here](https://raw.githubusercontent.com/A-Assuncao/playwright-to-exe/main/requirements.txt) and select "Save link as..." to download the `requirements.txt` file. Choose the empty directory where you wish to save it.
 
 ### Step 2: Configure Dependencies
-Edit the `requirements.txt` file by adding any additional libraries your project requires under section "2". IMPORTANT: Do not remove section "1". Save the file after editing.
+Edit the `requirements.txt` file by adding any additional libraries your project requires under section "2". Save the file after editing.
+IMPORTANT: Do not remove section "1".
 
 ### Step 3: Open PowerShell
-Navigate to your project folder and open PowerShell in that location.
+Navigate to the empty folder where you saved the `requirements.txt` file in step "1" and open PowerShell in that location.
 
 ### Step 4: Run the Installation Command
 Paste the following command into PowerShell and execute it:
