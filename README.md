@@ -2,19 +2,20 @@
 This tool automates the setup process by creating a virtual environment, installing dependencies from `requirements.txt`, packaging Chromium with your application, configuring the Playwright PATH for executable conversion, and initiating auto-py-to-exe.
 
 ## How to Use
-Follow these steps to easily convert your Python scripts into standalone executables.
+Follow these steps to easily convert your Python scripts into standalone executables:
 
-### Step 1: Preparation
+## Step 1: Preparation
 Right-click [here](https://raw.githubusercontent.com/A-Assuncao/playwright-to-exe/main/requirements.txt) and select "Save link as..." to download the `requirements.txt` file. Choose the empty directory where you wish to save it.
 
-### Step 2: Configure Dependencies
-Edit the `requirements.txt` file by adding any additional libraries your project requires under section "2". Save the file after editing.
-IMPORTANT: Do not remove section "1".
+## Step 2: Configure Dependencies
+- Edit the `requirements.txt` file by adding any additional libraries your project requires under section "2";
+-  Save the file after editing.
+#### IMPORTANT: Do not remove section "1".
 
-### Step 3: Open PowerShell
+## Step 3: Open PowerShell
 Navigate to the empty folder where you saved the `requirements.txt` file in step "1" and open PowerShell in that location.
 
-### Step 4: Run the Installation Command
+## Step 4: Run the Installation Command
 Paste the following command into PowerShell and execute it:
 
 ```powershell
