@@ -1,5 +1,5 @@
 # playwright-to-exe
-This tool automates the setup process by creating a virtual environment, installing dependencies from `requirements.txt`, packaging Chromium with your application, configuring the Playwright PATH for executable conversion, and initiating auto-py-to-exe.
+This tool automates the setup process to transform Python files that use the Playwright library into a onefile executable for Windows (.exe). It creates a virtual environment, installs dependencies from `requirements.txt`, packages Chromium with your application, configures the Playwright PATH for executable conversion, and initiates auto-py-to-exe.
 
 ## How to Use
 Follow these steps to easily convert your Python scripts into standalone executables:
