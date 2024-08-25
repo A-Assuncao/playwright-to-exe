@@ -8,8 +8,8 @@ Follow these steps to easily convert your Python scripts into standalone executa
 Right-click [here](https://raw.githubusercontent.com/A-Assuncao/playwright-to-exe/main/requirements.txt) and select "Save link as..." to download the `requirements.txt` file. Choose the empty directory where you wish to save it.
 
 ## Step 2: Configure Dependencies
-- Edit the `requirements.txt` file by adding any additional libraries your project requires under section "2";
--  Save the file after editing.
+1. Edit the `requirements.txt` file by adding any additional libraries your project requires under section "2";
+2. Save the file after editing.
 #### IMPORTANT: Do not remove section "1".
 
 ## Step 3: Open PowerShell
@@ -20,3 +20,7 @@ Paste the following command into PowerShell and execute it:
 
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/A-Assuncao/playwright-to-exe/main/setup_install_venv.ps1'))}"
+```
+
+## Credits
+This solution was inspired by a step-by-step guide created by [Animesh Singh](https://medium.com/@animeshsingh161) on [Medium.com](https://medium.com). You can read the original guide [here](https://medium.com/@animeshsingh161/how-to-convert-a-python-playwright-script-into-an-executable-app-playwright-with-python-b61d8ff0ca64). Many thanks to Animesh Singh for providing the detailed instructions that formed the basis for this automated process!
